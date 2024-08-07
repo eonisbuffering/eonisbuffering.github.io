@@ -2,3 +2,8 @@ body {
   background-image: url("images/bg/panda-bg.png");
   background-repeat: repeat;
 }
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
