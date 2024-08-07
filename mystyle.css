@@ -1,6 +1,7 @@
 body {
   background-image: url("img/bg/panda-bg.png");
   background-repeat: repeat;
+  height: 3000px;
 }
 
 h1 {
