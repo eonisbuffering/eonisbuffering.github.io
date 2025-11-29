@@ -9,44 +9,45 @@ h1 {
   margin-left: 20px;
 }
 
-iframe {
-    margin: 20px;
+.hero-section {
+	background-color: #000;
+	color: #fff;
+	padding: 8rem 0;
+	text-align: center;
 }
 
-.navbar-brand {
-    color: white;
+.content-section {
+	padding: 4rem 0;
 }
 
-.navbar {
-    --bs-navbar-padding-x: 0;
-    --bs-navbar-padding-y: 0;
+.card {
+	box-shadow: 0 4px 8px rgba(0,0,0,.1);
+	border: none;
 }
 
-navbar-brand {
-  color: white;
+.card-header-purple {
+	background-color: #800080;
+	color: #fff;
+	font-weight: bold;
 }
 
-header {
-  padding: 20px 0;
+.card-header-blue {
+	background-color: #1409ad;
+	color: #fff;
+	font-weight: bold;
 }
 
-header .row,
-footer .row {
-  display: flex;    
-  align-items: center;
+.card-header-green {
+	background-color: #02ba52;
+	color: #fff;
+	font-weight: bold;
 }
 
-header h2 {
-  font-weight: 700;
-  margin: 0;
+.test-section {
+	min-height: 40vh;
 }
 
-header nav {
-  display: flex;
-  justify-content: flex-end; 
-}
-
-header p {
-  padding: 0 20px;
-  margin: 0;
+.sticky-header-offset {
+	top: 56px; 
+	z-index: 1020;
 }
